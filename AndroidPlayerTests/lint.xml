@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="DefaultLocale" severity="ignore">
+        <ignore path="src/com/dolby/dope/test/DopePlayerPlayerStateTests.java" />
+    </issue>
+    <issue id="SdCardPath">
+        <ignore path="src/com/dolby/dope/test/BaseTests.java" />
+    </issue>
+</lint>

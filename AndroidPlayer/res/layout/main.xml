@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+     	android:layout_width = "match_parent"
+    	android:layout_height = "match_parent" > 
+    	
+<SurfaceView
+        android:id ="@+id/Videoview"
+        android:layout_width = "match_parent"
+        android:layout_height = "match_parent" />
+
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+	
+	<LinearLayout
+	    android:id="@+id/overlay_panel"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentLeft="true"
+	    android:orientation="vertical" >
+
+	    <LinearLayout
+	        android:id="@+id/progress_panel"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="4dp"
+	        android:background="#30FFFFFF"
+	        android:orientation="horizontal"
+	        android:padding="4dp" >
+
+	        <SeekBar
+	            android:id="@+id/seekBar"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_margin="4dp"
+	            android:layout_weight="1"
+	            android:clickable="false"
+	            android:focusable="false"
+	            android:focusableInTouchMode="false"
+	            android:longClickable="false" />
+
+	        <TextView
+	            android:id="@+id/idCurTime"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginRight="2dp"
+	            android:maxLines="1"
+	            android:padding="0dp"
+	            android:text="00:00"
+	            android:textColor="@android:color/white" />
+
+	    </LinearLayout>
+	</LinearLayout>
+
+</RelativeLayout>
+
+</FrameLayout>

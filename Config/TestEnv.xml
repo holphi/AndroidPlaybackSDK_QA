@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This file maintain the test info-->
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key="Platform">Android</entry>
+	<entry key="Device Name">SONY XPERIA Z3 Tablet Compact</entry>
+	<entry key="OS Version">Android 5.1.1</entry>
+	<entry key="Branch monitored">//projects/frameworks/playback/dev/ci_branch/</entry>
+</properties>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite errors="0" failures="1" name="" skips="0" tests="90" time="746.54">
+	<testcase classname="com.dolby.dope.test.DopePlayerBasicPlaybackTests" methodname="testIF_104" name="start(): Play the content to the end" priority="Medium" time="17.534"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerBasicPlaybackTests" methodname="testIF_108" name="start: Call start in paused state" priority="Medium" time="7.519"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerBasicPlaybackTests" methodname="testIF_109" name="pause: Call pause in playing state" priority="Medium" time="8.997"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerBasicPlaybackTests" methodname="testIF_110" name="pause: Call pause in paused state" priority="Medium" time="8.462"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerBasicPlaybackTests" methodname="testIF_111" name="pause: Call pause and start in sequence for several times" priority="Medium" time="47.499"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerBasicPlaybackTests" methodname="testIF_122" name="setSource: Call setSource in error state" priority="Medium" time="4.515"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerBasicPlaybackTests" methodname="testIF_123" name="setSource: Call setSource with an incorrect file path in error state" priority="Medium" time="4.514"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerBasicPlaybackTests" methodname="testIF_124" name="stop: Call stop in prepared state" priority="Medium" time="6.509"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerBasicPlaybackTests" methodname="testIF_125" name="stop: Call stop in playing state" priority="High" time="8.528"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerBasicPlaybackTests" methodname="testIF_126" name="stop: Call stop in paused state" priority="High" time="7.501"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerBasicPlaybackTests" methodname="testIF_127" name="stop: Call stop in stopped state" priority="Low" time="9.562"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerBasicPlaybackTests" methodname="testIF_128" name="stop: Play a new media file after finishing playback" priority="Medium" time="32.517"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerBasicPlaybackTests" methodname="testIF_13" name="create()" priority="High" time="2.488"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerBasicPlaybackTests" methodname="testIF_130" name="Call stop in idle state" priority="Medium" time="3.514"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerBasicPlaybackTests" methodname="testIF_131" name="Call stop in initialized state" priority="Medium" time="4.478"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerBasicPlaybackTests" methodname="testIF_14" name="create(String url)" priority="High" time="5.486"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerBasicPlaybackTests" methodname="testIF_16" name="create(String url): Exception handling" priority="Medium" time="3.489"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerBasicPlaybackTests" methodname="testIF_17" name="setSource(): Correct file path schema" priority="High" time="3.502"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerBasicPlaybackTests" methodname="testIF_18" name="setSource(): Incorrect file path schema" priority="High" time="4.512"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerBasicPlaybackTests" methodname="testIF_188" name="prepare(): A MP4 file with corrupted mp4 container" priority="Medium" time="3.484"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerBasicPlaybackTests" methodname="testIF_19" name="setSource(): A correct streaming URL schema with &quot;http&quot; prefix" priority="High" time="4.494"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerBasicPlaybackTests" methodname="testIF_20" name="setSource(): A correct streaming URL schema with &quot;https&quot; prefix" priority="High" time="4.521" />
+	<testcase classname="com.dolby.dope.test.DopePlayerBasicPlaybackTests" methodname="testIF_21" name="setSource(): Incorrect streaming URL schema" priority="High" time="4.501"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerBasicPlaybackTests" methodname="testIF_22" name="prepare(): An existent local media file" priority="High" time="4.500"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerBasicPlaybackTests" methodname="testIF_23" name="prepare(): An inexistent local media path" priority="Medium" time="3.482"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerBasicPlaybackTests" methodname="testIF_24" name="prepare(): An unsupport local file path" priority="Medium" time="3.534"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerBasicPlaybackTests" methodname="testIF_29" name="start(): Call start in prepared state" priority="Medium" time="7.503"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerBasicPlaybackTests" methodname="testIF_57" name="start(): Call start in paused state" priority="Medium" time="9.510"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerBasicPlaybackTests" methodname="testIF_58" name="start(): Call start again during media playback;" priority="Medium" time="10.529"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerDpfNodesCheck" methodname="testIF_161" name="DDP: Play a ddp content" priority="High" time="7.523"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerDpfNodesCheck" methodname="testIF_162" name="NGC: Play an AC-4 content" priority="High" time="7.484"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerEventHandlingTests" methodname="testIF_100" name="onError: Register multiple event callbacks for onError" priority="Medium" time="3.520"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerEventHandlingTests" methodname="testIF_101" name="onError: Remove the event callback for onError" priority="High" time="3.489"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerEventHandlingTests" methodname="testIF_102" name="onError: Pass an null object to addErrorListener" priority="Low" time="2.549"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerEventHandlingTests" methodname="testIF_103" name="onError: Pass an null object to removeErrorListener" priority="Low" time="2.498"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerEventHandlingTests" methodname="testIF_105" name="onError: Pass an unregistered method callback to removeErrorCallback" priority="Low" time="2.457"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerEventHandlingTests" methodname="testIF_106" name="onPrepare: Pass an unregistered method to removePrepareCallback" priority="Low" time="2.437"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerEventHandlingTests" methodname="testIF_107" name="onCompletion: Pass an unregistered method callback to removeCompletionCallback" priority="Low" time="2.467"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerEventHandlingTests" methodname="testIF_189" name="onMessage: Register an event callback for onMessage" priority="High" time="17.483"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerEventHandlingTests" methodname="testIF_190" name="onMessage: Register multiple event callback for onMessage" priority="Medium" time="17.495"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerEventHandlingTests" methodname="testIF_191" name="onMessage: Remove the event callback for onMessage" priority="High" time="17.493"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerEventHandlingTests" methodname="testIF_192" name="onMessage: Pass an null object to addMessageListener" priority="Low" time="2.458"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerEventHandlingTests" methodname="testIF_193" name="onMessage: Pass an null object to removeMessageListener" priority="Low" time="2.470"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerEventHandlingTests" methodname="testIF_194" name="onMessage: Pass an unregistered method callback to removeMessageListener" priority="Low" time="2.473"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerEventHandlingTests" methodname="testIF_195" name="onMessage: Local content with corrupted audio frames" priority="Medium" time="17.472"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerEventHandlingTests" methodname="testIF_46" name="onPrepared: Register an event callback for onPrepare" priority="High" time="4.516"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerEventHandlingTests" methodname="testIF_47" name="onPrepared: Register multiple event callbacks for onPrepare" priority="Medium" time="4.487"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerEventHandlingTests" methodname="testIF_48" name="onPrepared: Remove the event callback for onPrepare" priority="High" time="4.503"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerEventHandlingTests" methodname="testIF_49" name="onPrepared: Prepare failed" priority="Medium" time="4.780"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerEventHandlingTests" methodname="testIF_50" name="onPrepared: Pass an null object to addPrepareListener" priority="Low" time="2.461"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerEventHandlingTests" methodname="testIF_51" name="onPrepared: Pass an null object to removePrepareListener" priority="Low" time="2.466"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerEventHandlingTests" methodname="testIF_88" name="onCompletion:Register an event callback for onCompletion" priority="High" time="17.482"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerEventHandlingTests" methodname="testIF_89" name="onCompletion:Register multiple event callbacks for onCompletion" priority="Medium" time="17.491"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerEventHandlingTests" methodname="testIF_90" name="onCompletion:Remove event callbacks for onCompletion" priority="High" time="17.487"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerEventHandlingTests" methodname="testIF_91" name="onCompletion:Pass an null object to addCompletionListener" priority="Low" time="2.541"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerEventHandlingTests" methodname="testIF_92" name="onCompletion:Pass an null object to removeCompletionListener" priority="Low" time="2.553"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerEventHandlingTests" methodname="testIF_99" name="onError: Register an event callback for onError" priority="High" time="3.493"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerIllegalStateHandlingTests" methodname="testIF_1" name="Call setSource in initialized state" priority="Medium" time="4.503"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerIllegalStateHandlingTests" methodname="testIF_10" name="Call prepare in paused state" priority="Medium" time="8.438"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerIllegalStateHandlingTests" methodname="testIF_11" name="Call prepare in error state" priority="Medium" time="4.489"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerIllegalStateHandlingTests" methodname="testIF_112" name="Call pause in idle state" priority="Medium" time="3.483"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerIllegalStateHandlingTests" methodname="testIF_113" name="Call pause in initialized state" priority="Medium" time="4.505"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerIllegalStateHandlingTests" methodname="testIF_114" name="Call pause in prepared state" priority="Medium" time="6.550"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerIllegalStateHandlingTests" methodname="testIF_115" name="Call pause in stopped state" priority="Medium" time="23.566"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerIllegalStateHandlingTests" methodname="testIF_116" name="Call pause in error state" priority="Medium" time="4.528"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerIllegalStateHandlingTests" methodname="testIF_132" name="Call stop in error state" priority="Medium" time="4.462"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerIllegalStateHandlingTests" methodname="testIF_2" name="Call setSource in prepared state" priority="Medium" time="6.513"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerIllegalStateHandlingTests" methodname="testIF_3" name="Call setSource in playing state" priority="Medium" time="8.520"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerIllegalStateHandlingTests" methodname="testIF_4" name="Call setSource in paused state" priority="Medium" time="8.211"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerIllegalStateHandlingTests" methodname="testIF_52" name="Call start in idle state" priority="Medium" time="3.509"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerIllegalStateHandlingTests" methodname="testIF_53" name="Call start in initialized state" priority="Medium" time="4.501"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerIllegalStateHandlingTests" methodname="testIF_54" name="Call start in stopped state" priority="Medium" time="18.504"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerIllegalStateHandlingTests" methodname="testIF_55" name="Call start in error state" priority="Medium" time="4.576"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerIllegalStateHandlingTests" methodname="testIF_7" name="Call prepare in idle state" priority="Medium" time="3.462"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerIllegalStateHandlingTests" methodname="testIF_8" name="Call prepare in prepared state" priority="Medium" time="6.521"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerIllegalStateHandlingTests" methodname="testIF_9" name="Call prepare in playing state" priority="Medium" time="8.464"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerPlayerStateTests" methodname="testIF_170" name="getDuraiton: Call getDuration during media playback" priority="High" time="7.525"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerPlayerStateTests" methodname="testIF_171" name="getDuraiton: Call getDuration in stopped state" priority="High" time="22.493"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerPlayerStateTests" methodname="testIF_172" name="getDuration: Call getDuration in prepared state" priority="Medium" time="5.504"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerPlayerStateTests" methodname="testIF_173" name="getDuration: Call getDuration if preparation fails" priority="Low" time="4.484"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerPlayerStateTests" methodname="testIF_174" name="getDuraiton: Call getDuration in idle state" priority="Low" time="2.486"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerPlayerStateTests" methodname="testIF_175" name="getDuration: Call getDuration in initialized state" priority="Low" time="3.522"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerPlayerStateTests" methodname="testIF_178" name="getDuration: Call getDuration in paused state" priority="Low" time="7.457"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerPlayerStateTests" methodname="testIF_179" name="getCurrentTime: Keep calling getCurrTime during media playback" priority="High" time="67.495"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerPlayerStateTests" methodname="testIF_180" name="getCurrentTime: Call getCurrTime in stopped state" priority="Medium" time="22.505"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerPlayerStateTests" methodname="testIF_181" name="getCurrentTime: Call getCurrentTime in paused state" priority="Medium" time="7.482"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerPlayerStateTests" methodname="testIF_182" name="getCurrentTime: Call getCurrTime in prepared state" priority="Low" time="5.544"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerPlayerStateTests" methodname="testIF_183" name="getCurrentTime: Call getCurrTime in idle state" priority="Low" time="2.521"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerPlayerStateTests" methodname="testIF_184" name="getCurrentTime: Call getCurrTime in initialized state" priority="Low" time="3.514"/>
+	<testcase classname="com.dolby.dope.test.DopePlayerPlayerStateTests" methodname="testIF_187" name="getCurrentTime: Call getCurrTime in error state" priority="Low" time="3.491"/>
+</testsuite>

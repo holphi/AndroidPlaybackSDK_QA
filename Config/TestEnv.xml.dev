@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This file maintain the test info-->
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key="Platform">Android</entry>
+	<entry key="Device Name">Google Nexus 10 Tablet</entry>
+	<entry key="OS Version">Android 4.4.2</entry>
+	<entry key="Branch monitored">//projects/frameworks/playback/dev/common/</entry>
+</properties>

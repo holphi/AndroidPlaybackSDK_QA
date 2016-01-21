@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assets>
+<asset name="IF-265">http://192.168.1.100/IF/Adaptive/DASH/OnDel/DDP/OnDemand/BPL30_2997fps/channel_id/20/ChID_voices_20_128_ddp.mpd</asset>
+<asset name="IF-266">http://192.168.1.100/IF/Adaptive/DASH/OnDel/DDP/OnDemand/BPL31_25fps/channel_id/51/ChID_voices_51_256_ddp.mpd</asset>
+<asset name="IF-267">http://192.168.1.100/IF/Adaptive/DASH/OnDel/DDP/OnDemand/HPL40_25fps/channel_id/71/ChID_voices_71_768_ddp.mpd</asset>
+<asset name="IF-268">http://192.168.1.100/IF/Adaptive/DASH/OnDel/DDP/OnDemand/MPL40_25fps/little_endian/ChID_voices_51_256_LE_ddp.mpd</asset>
+<asset name="IF-269">http://192.168.1.100/IF/Adaptive/DASH/OnDel/DDP/OnDemand/MPL40_2997fps/multi_lang/ChID_voices_eng_fra_51_256_ddp.mpd</asset>
+<asset name="IF-270">http://192.168.1.100/IF/Adaptive/DASH/OnDel/DDP/OnDemand/HPL40_2997fps/channel_id/51_joc/ChID_voices_51_384_ddp_joc.mpd</asset>
+<asset name="IF-271">http://192.168.1.100/IF/Adaptive/DASH/OnDel/DDP/OnDemand/HPL40_2997fps/dual_decoding/51_joc/ChID_voices_AD_51_10_384_128_ddp_joc.mpd</asset>
+<asset name="IF-272">http://192.168.1.100/IF/Adaptive/DASH/OnDel/DDP/OnDemand/BPL30_2997fps/channel_id/20/ChID_voices_20_128_ddp.mpd</asset>
+</assets>
