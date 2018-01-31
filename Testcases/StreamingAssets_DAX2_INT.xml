@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<assets>
-<asset name="AudioSphere_LIVE">http://192.168.1.100/IF/Adaptive/DASH/Internal/DDP/Live/AudioSphere_DDPJOC_Live/AudioSphere_DDPJOC.mpd</asset>
-<asset name="AudioSphere_VOD">http://192.168.1.100/IF/Adaptive/DASH/Internal/DDP/OnDemand/AudioSphere_DDPJOC_OnDemand/AudioSphere_DDPJOC.mpd</asset>
-</assets>

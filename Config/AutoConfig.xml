@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-	<entry key="testlink_url">http://testlink.dolby.net</entry>
-	<entry key="dev_key">9fdd6ad66fd8a27ecad351037ca0a6b4</entry>
+	<entry key="testlink_url">http://testlink.abc.net</entry>
+	<entry key="dev_key">9fdd6ad66fd8a27ecad351037ca0a6bc</entry>
 	<entry key="project">Players_Integration_Framework</entry>
 	<entry key="plan">Sprint_32_Full_Regression_TestSet</entry>
 	<entry key="build">Sprint32_Regular_Build_2680365</entry>
@@ -12,7 +12,7 @@
 	<entry key="test_workspace_name">sqli_Android_IF_QA_Main</entry>
 	<entry key="dev_workspace_name">sqli_IF_Dev_Common</entry>
 	<!--Sending out test report Settings-->
-	<entry key="smpt_server">cas-prod.dolby.net</entry>
+	<entry key="smpt_server"></entry>
 	<entry key="sender">alex.li@dolby.com</entry>
-	<entry key="receivers">alex.li@dolby.com;wei.gong@dolby.com;yong.zhu@dolby.com;mzchan@dolby.com;Jake.Sebastian-Jones@dolby.com;Jonathan.Kurniawan@dolby.com;nikhil.parijaat@dolby.com;alex.veprik@dolby.com</entry>
+	<entry key="receivers">alex.li@dolby.com</entry>
 </properties>

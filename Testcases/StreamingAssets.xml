@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<assets>
-<asset name="IF-496">http://192.168.1.100/IF/Adaptive/DASH/OnDel/DDP/OnDemand/MPL40_25fps/multi_rate/ChID_voices_71_384_448_768_ddp.mpd</asset>
-<asset name="IF-541">http://192.168.1.100/IF/Adaptive/DASH/Internal/AC_4_0_99/OnDemand/Inception_51_ToH264/1920x1080p23976fps5000kh264highL40_6cheng192kac4/Inception_H264_1080p_6ch_192k.mpd</asset>
-<asset name="IF-542">http://192.168.1.100/IF/Adaptive/DASH/Internal/AC_4_0_99/OnDemand/Inception_51_ToH264/1920x1080p23976fps5000kh264highL40_6cheng192kac4/Inception_H264_1080p_6ch_192k.mpd</asset>
-</assets>
