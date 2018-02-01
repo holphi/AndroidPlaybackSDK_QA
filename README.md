@@ -6,9 +6,9 @@ This project is a cross-GEO project, DEV and QA are separated in different locat
 
 ![image](https://github.com/holphi/AndroidPlaybackSDK_QA/blob/master/resources/CI.jpg)
 
-Team members can receive test report as below:
+Team members can receive a quality notification by e-mail as below:
 
-![image](https://github.com/holphi/AndroidPlaybackSDK_QA/blob/master/resources/CI_TestReport.jpg)
+![image](https://github.com/holphi/AndroidPlaybackSDK_QA/blob/master/resources/CI_Report.jpg)
  
 # Test Cases Management Plug-in
 The project was using Testlink as the TMS, however, we felt difficult to maintain test cases and requirements in the Testlink, especially when we need to bulk update test cases/requirements, the test management plug-in I designed in spare time is to solve these pain points, this plug-in was implemented by Excel VBA, it's integrated into Excel as Macro, it can be loaded automatically when users launch Excel. By using this plug-in, team members can add/update test cases in Excel worksheet independently, they can also associate test cases with requirements, once they finish editing, they can export the test cases or requirements to XML files, then manually upload the XML files to Testlink. Below screenshot shows how this plug-in looks like:
