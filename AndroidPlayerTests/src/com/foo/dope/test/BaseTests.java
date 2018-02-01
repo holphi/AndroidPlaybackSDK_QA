@@ -1,4 +1,4 @@
-package com.dolby.dope.test;
+package com.foo.dope.test;
 
 import java.util.HashMap;
 import java.util.Scanner;
@@ -20,15 +20,15 @@ import android.util.Log;
 import android.annotation.SuppressLint;
 import android.test.ActivityInstrumentationTestCase2;
 
-import com.dolby.infra.Player;
-import com.dolby.infra.Player.IllegalArgumentException;
-import com.dolby.infra.Player.MediaInfo;
-import com.dolby.infra.Player.MediaInfo.MediaType;
-import com.dolby.infra.Player.PlayerState;
+import com.foo.infra.Player;
+import com.foo.infra.Player.IllegalArgumentException;
+import com.foo.infra.Player.MediaInfo;
+import com.foo.infra.Player.MediaInfo.MediaType;
+import com.foo.infra.Player.PlayerState;
 
-import com.dolby.application.infra.app.AndroidPlayer;
+import com.foo.application.infra.app.AndroidPlayer;
 
-import com.dolby.dope.test.util.CommonUtil;
+import com.foo.dope.test.util.CommonUtil;
 
 public abstract class BaseTests extends ActivityInstrumentationTestCase2<AndroidPlayer> 
 {
@@ -368,48 +368,48 @@ public abstract class BaseTests extends ActivityInstrumentationTestCase2<Android
 
 	public BaseTests() 
 	{
-		super("com.dolby.application.dope.app", AndroidPlayer.class);
+		super("com.foo.application.dope.app", AndroidPlayer.class);
 		
 		//DDP
 		testSignals_MP4 = new HashMap<String, String>();
-		testSignals_MP4.put("gotye_ddp_13s.mp4", "file:///sdcard/dolby/DOPE/media/gotye_ddp_13s.mp4");
-		testSignals_MP4.put("Dolby_51_72s.mp4", "file:///sdcard/dolby/DOPE/media/TestVector_002_51.mp4");
-		testSignals_MP4.put("missing_file_prefix", "/sdcard/dolby/DOPE/media/gotye_ddp_13s.mp4");
-		testSignals_MP4.put("unsupport_file", "file:///sdcard/dolby/DOPE/media/test.txt");
-		testSignals_MP4.put("inexistent_file", "file:///sdcard/dolby/DOPE/media/inexistent_folder/test.mp4");
-		testSignals_MP4.put("flight_ddp_13s.mp4",  "file:///sdcard/dolby/DOPE/media/flight_ddp_13s.mp4");
-		testSignals_MP4.put("Corrupt_container_ddp.mp4", "file:///sdcard/dolby/DOPE/media/Corrupt_container_ddp.mp4");
-		testSignals_MP4.put("Corrupt_audio_ddp.mp4", "file:///sdcard/dolby/DOPE/media/Corrupt_audio_ddp.mp4");
-		testSignals_MP4.put("Corrupt_video_ddp.mp4", "file:///sdcard/dolby/DOPE/media/Corrupt_video_ddp.mp4");
-		testSignals_MP4.put("ACH_ddp.mp4", "file:///sdcard/dolby/DOPE/media/ACH_1920x1080_24fps_20_ddp_4min16s.mp4");
-		testSignals_MP4.put("ED_ddp_51.mp4", "file:///sdcard/dolby/DOPE/media/ED_1280x720_24fps_51_ddp_10min55sec.mp4");
-		testSignals_MP4.put("AudioOnly_DDP", "file:///sdcard/dolby/DOPE/media/Sample_MusicOnly_20_ddp.mp4");
-		testSignals_MP4.put("VideoOnly_DDP", "file:///sdcard/dolby/DOPE/media/Sample_VideoOnly_55s.mp4");
-		testSignals_MP4.put("ChID_5_1_2_JOC.mp4", "file:///sdcard/dolby/DOPE/media/ChIDJOC.mp4");
-		testSignals_MP4.put("The_flash_ddp.mp4", "file:///sdcard/dolby/DOPE/media/The_Flash_ec3.mp4");
-		testSignals_MP4.put("car_ddp_51.mp4", "file:///sdcard/dolby/DOPE/media/Cars_1920x1080_24fps_51_ddp.mp4");
-		testSignals_MP4.put("6CH_DDP_AUDIO_DE.mp4", "file:///sdcard/dolby/DOPE/media/6CH_DDP_AUDIO_DE.mp4");
-		testSignals_MP4.put("Leaf_DDP_JOC.mp4", "file:///sdcard/dolby/DOPE/media/Leaf_5P1JOC.mp4");
-		testSignals_MP4.put("DAA_Main_Commentary", "file:///sdcard/dolby/DOPE/media/skip_armstrong_main_3_language.mp4");
-		testSignals_MP4.put("Audio_only_ddp_30s.mp4", "file:///sdcard/dolby/DOPE/media/audio_only_ddp_30s.mp4");
+		testSignals_MP4.put("gotye_ddp_13s.mp4", "file:///sdcard/foo/DOPE/media/gotye_ddp_13s.mp4");
+		testSignals_MP4.put("foo_51_72s.mp4", "file:///sdcard/foo/DOPE/media/TestVector_002_51.mp4");
+		testSignals_MP4.put("missing_file_prefix", "/sdcard/foo/DOPE/media/gotye_ddp_13s.mp4");
+		testSignals_MP4.put("unsupport_file", "file:///sdcard/foo/DOPE/media/test.txt");
+		testSignals_MP4.put("inexistent_file", "file:///sdcard/foo/DOPE/media/inexistent_folder/test.mp4");
+		testSignals_MP4.put("flight_ddp_13s.mp4",  "file:///sdcard/foo/DOPE/media/flight_ddp_13s.mp4");
+		testSignals_MP4.put("Corrupt_container_ddp.mp4", "file:///sdcard/foo/DOPE/media/Corrupt_container_ddp.mp4");
+		testSignals_MP4.put("Corrupt_audio_ddp.mp4", "file:///sdcard/foo/DOPE/media/Corrupt_audio_ddp.mp4");
+		testSignals_MP4.put("Corrupt_video_ddp.mp4", "file:///sdcard/foo/DOPE/media/Corrupt_video_ddp.mp4");
+		testSignals_MP4.put("ACH_ddp.mp4", "file:///sdcard/foo/DOPE/media/ACH_1920x1080_24fps_20_ddp_4min16s.mp4");
+		testSignals_MP4.put("ED_ddp_51.mp4", "file:///sdcard/foo/DOPE/media/ED_1280x720_24fps_51_ddp_10min55sec.mp4");
+		testSignals_MP4.put("AudioOnly_DDP", "file:///sdcard/foo/DOPE/media/Sample_MusicOnly_20_ddp.mp4");
+		testSignals_MP4.put("VideoOnly_DDP", "file:///sdcard/foo/DOPE/media/Sample_VideoOnly_55s.mp4");
+		testSignals_MP4.put("ChID_5_1_2_JOC.mp4", "file:///sdcard/foo/DOPE/media/ChIDJOC.mp4");
+		testSignals_MP4.put("The_flash_ddp.mp4", "file:///sdcard/foo/DOPE/media/The_Flash_ec3.mp4");
+		testSignals_MP4.put("car_ddp_51.mp4", "file:///sdcard/foo/DOPE/media/Cars_1920x1080_24fps_51_ddp.mp4");
+		testSignals_MP4.put("6CH_DDP_AUDIO_DE.mp4", "file:///sdcard/foo/DOPE/media/6CH_DDP_AUDIO_DE.mp4");
+		testSignals_MP4.put("Leaf_DDP_JOC.mp4", "file:///sdcard/foo/DOPE/media/Leaf_5P1JOC.mp4");
+		testSignals_MP4.put("DAA_Main_Commentary", "file:///sdcard/foo/DOPE/media/skip_armstrong_main_3_language.mp4");
+		testSignals_MP4.put("Audio_only_ddp_30s.mp4", "file:///sdcard/foo/DOPE/media/audio_only_ddp_30s.mp4");
 		
-		testSignals_MP4.put("Alizee_YUV", "file:///sdcard/dolby/DOPE/media/alizee.yuv");
+		testSignals_MP4.put("Alizee_YUV", "file:///sdcard/foo/DOPE/media/alizee.yuv");
 		
 		//AC-4
-		testSignals_MP4.put("trim_ac4_13s.mp4", "file:///sdcard/dolby/DOPE/media/Alizee_ac4_10s.mp4");
-		testSignals_MP4.put("slient_ac4_20.mp4", "file:///sdcard/dolby/DOPE/media/The_Flash_ec3.mp4");
-		testSignals_MP4.put("slient_ac4_51.mp4", "file:///sdcard/dolby/DOPE/media/The_Flash_ec3.mp4");
-		testSignals_MP4.put("transformer_ac4_51.mp4", "file:///sdcard/dolby/DOPE/media/Transformer_1920x1080_23976fps_51_ac4_204s.mp4");
-		testSignals_MP4.put("transformer_ac4_51.mp4", "file:///sdcard/dolby/DOPE/media/ED_1280x720_24fps_51_ddp_10min55sec.mp4");
-		testSignals_MP4.put("ED_ac4_51.mp4", "file:///sdcard/dolby/DOPE/media/ED_1280x720_24fps_51_ac4_10min55sec.mp4");
-		testSignals_MP4.put("HOP_ac4_51.mp4", "file:///sdcard/dolby/DOPE/media/Hop_1280x720_24fps_51_30min_ac4.mp4");
-		testSignals_MP4.put("Music_ac4_20.mp4", "file:///sdcard/dolby/DOPE/media/Music_44100_20_32_ac4.mp4");
-		testSignals_MP4.put("Transformer_ac4_51.mp4", "file:///sdcard/dolby/DOPE/media/Transformer_51_ac4_204s.mp4");
-		testSignals_MP4.put("Cars_ac4_51.mp4", "file:///sdcard/dolby/DOPE/media/Inception_H264_480p_6ch_128k.mp4");
-		testSignals_MP4.put("Inception_ac4_51.mp4", "file:///sdcard/dolby/DOPE/media/Inception_H264_480p_6ch_128k.mp4");
-		testSignals_MP4.put("Alizee_ac4_10s.mp4", "file:///sdcard/dolby/DOPE/media/Alizee_ac4_10s.mp4");
-		testSignals_MP4.put("Multi_Presentation_AC4.mp4", "file:///sdcard/dolby/DOPE/media/car_multi_presentation.mp4");
-		testSignals_MP4.put("Main_Asso_AC4.mp4", "file:///sdcard/dolby/DOPE/media/car_main_asso.mp4");
+		testSignals_MP4.put("trim_ac4_13s.mp4", "file:///sdcard/foo/DOPE/media/Alizee_ac4_10s.mp4");
+		testSignals_MP4.put("slient_ac4_20.mp4", "file:///sdcard/foo/DOPE/media/The_Flash_ec3.mp4");
+		testSignals_MP4.put("slient_ac4_51.mp4", "file:///sdcard/foo/DOPE/media/The_Flash_ec3.mp4");
+		testSignals_MP4.put("transformer_ac4_51.mp4", "file:///sdcard/foo/DOPE/media/Transformer_1920x1080_23976fps_51_ac4_204s.mp4");
+		testSignals_MP4.put("transformer_ac4_51.mp4", "file:///sdcard/foo/DOPE/media/ED_1280x720_24fps_51_ddp_10min55sec.mp4");
+		testSignals_MP4.put("ED_ac4_51.mp4", "file:///sdcard/foo/DOPE/media/ED_1280x720_24fps_51_ac4_10min55sec.mp4");
+		testSignals_MP4.put("HOP_ac4_51.mp4", "file:///sdcard/foo/DOPE/media/Hop_1280x720_24fps_51_30min_ac4.mp4");
+		testSignals_MP4.put("Music_ac4_20.mp4", "file:///sdcard/foo/DOPE/media/Music_44100_20_32_ac4.mp4");
+		testSignals_MP4.put("Transformer_ac4_51.mp4", "file:///sdcard/foo/DOPE/media/Transformer_51_ac4_204s.mp4");
+		testSignals_MP4.put("Cars_ac4_51.mp4", "file:///sdcard/foo/DOPE/media/Inception_H264_480p_6ch_128k.mp4");
+		testSignals_MP4.put("Inception_ac4_51.mp4", "file:///sdcard/foo/DOPE/media/Inception_H264_480p_6ch_128k.mp4");
+		testSignals_MP4.put("Alizee_ac4_10s.mp4", "file:///sdcard/foo/DOPE/media/Alizee_ac4_10s.mp4");
+		testSignals_MP4.put("Multi_Presentation_AC4.mp4", "file:///sdcard/foo/DOPE/media/car_multi_presentation.mp4");
+		testSignals_MP4.put("Main_Asso_AC4.mp4", "file:///sdcard/foo/DOPE/media/car_main_asso.mp4");
 		
 		//Test signals for DASH playback
 		testSignals_DASH = new HashMap<String, String>();
@@ -477,8 +477,8 @@ public abstract class BaseTests extends ActivityInstrumentationTestCase2<Android
 		
 		//MPEG2-TS
 		testSignals_TS = new HashMap<String, String>();
-		testSignals_TS.put("test_DDP_AV", "file:///sdcard/dolby/DOPE/media/mpeg2ts_ddp_av.ts");
-		testSignals_TS.put("test_DDP_AudioOnly", "file:///sdcard/dolby/DOPE/media/mpeg2ts_ddp_audioonly.ts");
+		testSignals_TS.put("test_DDP_AV", "file:///sdcard/foo/DOPE/media/mpeg2ts_ddp_av.ts");
+		testSignals_TS.put("test_DDP_AudioOnly", "file:///sdcard/foo/DOPE/media/mpeg2ts_ddp_audioonly.ts");
 	}
 	
 	@Override

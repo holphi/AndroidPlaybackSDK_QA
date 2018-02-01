@@ -1,16 +1,16 @@
-package com.dolby.dope.test;
+package com.foo.dope.test;
 
 import junit.framework.Assert;
 
-import com.dolby.infra.Player.MediaInfo;
-import com.dolby.infra.Player.MediaInfo.MediaType;
-import com.dolby.infra.Player.MediaInfo.TrackInfo;
-import com.dolby.infra.Player.MediaInfo.TrackInfo.StreamInfo;
+import com.foo.infra.Player.MediaInfo;
+import com.foo.infra.Player.MediaInfo.MediaType;
+import com.foo.infra.Player.MediaInfo.TrackInfo;
+import com.foo.infra.Player.MediaInfo.TrackInfo.StreamInfo;
 
-import com.dolby.test.annotation.High;
-import com.dolby.test.annotation.Medium;
-import com.dolby.test.annotation.Low;
-import com.dolby.test.annotation.Testlink;
+import com.foo.test.annotation.High;
+import com.foo.test.annotation.Medium;
+import com.foo.test.annotation.Low;
+import com.foo.test.annotation.Testlink;
 
 public class DashMediaInfoTests extends BaseTests
 {

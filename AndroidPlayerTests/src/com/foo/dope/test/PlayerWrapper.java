@@ -1,31 +1,31 @@
-package com.dolby.dope.test;
+package com.foo.dope.test;
 
 import android.test.UiThreadTest;
 import android.util.Log;
 import android.view.Surface;
 
-import com.dolby.infra.Player;
-import com.dolby.infra.Player.IllegalStateException;
-import com.dolby.infra.Player.IllegalArgumentException;
+import com.foo.infra.Player;
+import com.foo.infra.Player.IllegalStateException;
+import com.foo.infra.Player.IllegalArgumentException;
 
-import com.dolby.infra.Player.PlayerState;
-import com.dolby.infra.Player.Value;
-import com.dolby.infra.Player.MediaInfo;
-import com.dolby.infra.Player.MediaInfo.MediaType;
-import com.dolby.infra.Player.Version;
+import com.foo.infra.Player.PlayerState;
+import com.foo.infra.Player.Value;
+import com.foo.infra.Player.MediaInfo;
+import com.foo.infra.Player.MediaInfo.MediaType;
+import com.foo.infra.Player.Version;
 
-import com.dolby.infra.Player.InstantiationException;
-import com.dolby.infra.Player.ErrorStateListener;
-import com.dolby.infra.Player.InvalidValueException;
-import com.dolby.infra.Player.PrepareStateListener;
-import com.dolby.infra.Player.PropertyNotFoundException;
-import com.dolby.infra.Player.StreamChangedListener;
-import com.dolby.infra.Player.CompletionListener;
+import com.foo.infra.Player.InstantiationException;
+import com.foo.infra.Player.ErrorStateListener;
+import com.foo.infra.Player.InvalidValueException;
+import com.foo.infra.Player.PrepareStateListener;
+import com.foo.infra.Player.PropertyNotFoundException;
+import com.foo.infra.Player.StreamChangedListener;
+import com.foo.infra.Player.CompletionListener;
 
-import com.dolby.application.infra.app.AndroidPlayer;
+import com.foo.application.infra.app.AndroidPlayer;
 
-import com.dolby.dope.test.util.CommonUtil;
-import com.dolby.dope.test.util.CommonUtil.ErrorFlag;
+import com.foo.dope.test.util.CommonUtil;
+import com.foo.dope.test.util.CommonUtil.ErrorFlag;
 
 public class PlayerWrapper 
 {

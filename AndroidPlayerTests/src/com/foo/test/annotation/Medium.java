@@ -1,13 +1,13 @@
 /**
 * @Title:			Medium
-* @Package:			com.dolby.test.annotation
+* @Package:			com.foo.test.annotation
 * @Description:		Customized annotation which is used to mark medium priority test methods.  
 * @author:			Alex LI
 * @date:			2014/03/19
-* @COPYRIGHT:		2014 Dolby Labs. All rights reserved
+* @COPYRIGHT:		2014 foo Labs. All rights reserved
 */
 
-package com.dolby.test.annotation;
+package com.foo.test.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

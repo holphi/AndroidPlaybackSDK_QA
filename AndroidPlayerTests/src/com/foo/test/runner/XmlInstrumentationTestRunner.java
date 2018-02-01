@@ -1,13 +1,13 @@
 /**
 * @Title:			XmlInstrumentationTestRunner
-* @Package:			com.dolby.test.runner
+* @Package:			com.foo.test.runner
 * @Description:		Employ XmlInstrumentationTestRunner for JUnit-like test result output, as native InstrumentationTestRunner doesn't support xml report output.   
 * @author:			Alex LI
 * @date:			2014/02/25
-* @COPYRIGHT:		2014 Dolby Labs. All rights reserved
+* @COPYRIGHT:		2014 foo Labs. All rights reserved
 */
 
-package com.dolby.test.runner;
+package com.foo.test.runner;
 
 import java.io.File;
 import java.io.IOException;
@@ -33,7 +33,7 @@ import android.test.InstrumentationTestRunner;
 import android.os.Bundle;
 import android.os.Environment;
 
-import com.dolby.test.annotation.*;
+import com.foo.test.annotation.*;
 
 public class XmlInstrumentationTestRunner extends InstrumentationTestRunner 
 {

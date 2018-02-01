@@ -1,14 +1,14 @@
-package com.dolby.dope.test;
+package com.foo.dope.test;
 
 import junit.framework.Assert;
 
-import com.dolby.infra.Player.PlayerState;
-import com.dolby.dope.test.util.CommonUtil;
-import com.dolby.dope.test.util.CommonUtil.ErrorFlag;
-import com.dolby.test.annotation.High;
-import com.dolby.test.annotation.Low;
-import com.dolby.test.annotation.Medium;
-import com.dolby.test.annotation.Testlink;
+import com.foo.infra.Player.PlayerState;
+import com.foo.dope.test.util.CommonUtil;
+import com.foo.dope.test.util.CommonUtil.ErrorFlag;
+import com.foo.test.annotation.High;
+import com.foo.test.annotation.Low;
+import com.foo.test.annotation.Medium;
+import com.foo.test.annotation.Testlink;
 
 public class PlayerStateTests extends BaseTests {
 	

@@ -1,14 +1,14 @@
-package com.dolby.dope.test;
+package com.foo.dope.test;
 
-import com.dolby.dope.test.util.CommonUtil;
-import com.dolby.dope.test.util.CommonUtil.ErrorFlag;
-import com.dolby.infra.Player.PlayerState;
-import com.dolby.infra.Player.Value;
-import com.dolby.test.annotation.Testlink;
+import com.foo.dope.test.util.CommonUtil;
+import com.foo.dope.test.util.CommonUtil.ErrorFlag;
+import com.foo.infra.Player.PlayerState;
+import com.foo.infra.Player.Value;
+import com.foo.test.annotation.Testlink;
 
-import com.dolby.test.annotation.High;
-import com.dolby.test.annotation.Medium;
-import com.dolby.test.annotation.Low;
+import com.foo.test.annotation.High;
+import com.foo.test.annotation.Medium;
+import com.foo.test.annotation.Low;
 
 
 import junit.framework.Assert;
@@ -29,7 +29,7 @@ public class DAX2TuningTests extends BaseTests
 		super.tearDown();
 	}
 	
-	private String strDTTFilePath = "file:///sdcard/dolby/DOPE/tuning/dtt_Nexus5.xml";
+	private String strDTTFilePath = "file:///sdcard/foo/DOPE/tuning/dtt_Nexus5.xml";
 	
 	private final String DAX_DEC_DAP_TUNINGS = "DAX_DEC_DAP_TUNINGS";
 	

@@ -1,11 +1,11 @@
-package com.dolby.dope.test;
+package com.foo.dope.test;
 
 import junit.framework.Assert;
 
-import com.dolby.infra.Player.PlayerState;
-import com.dolby.dope.test.util.CommonUtil;
-import com.dolby.test.annotation.High;
-import com.dolby.test.annotation.Testlink;
+import com.foo.infra.Player.PlayerState;
+import com.foo.dope.test.util.CommonUtil;
+import com.foo.test.annotation.High;
+import com.foo.test.annotation.Testlink;
 
 /*
  * This suite is mainly used to quick check specified nodes are integrated well

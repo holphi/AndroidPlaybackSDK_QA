@@ -1,13 +1,13 @@
 /**
 //* @Title:			TestLogCollector
-* @Package:			com.dolby.test.runner
+* @Package:			com.foo.test.runner
 * @Description:		This class is used to collect test log info during test execution.   
 * @author:			Alex LI
 * @date:			2014/06/12
-* @COPYRIGHT:		2014 Dolby Labs. All rights reserved
+* @COPYRIGHT:		2014 foo Labs. All rights reserved
 */
 
-package com.dolby.test.runner;
+package com.foo.test.runner;
 
 import java.io.File;
 import java.io.IOException;

@@ -1,13 +1,13 @@
 /**
 * @Title:			CommonUtil
-* @Package:			com.dolby.dope.test.util
+* @Package:			com.foo.dope.test.util
 * @Description:		Utility class serves for Automation test cases 
 * @author:			Alex LI
 * @date:			2014/04/29
-* @COPYRIGHT:		2014 Dolby Labs. All rights reserved
+* @COPYRIGHT:		2014 foo Labs. All rights reserved
 */
 
-package com.dolby.dope.test.util;
+package com.foo.dope.test.util;
 
 import java.io.File;
 import java.io.FileInputStream;

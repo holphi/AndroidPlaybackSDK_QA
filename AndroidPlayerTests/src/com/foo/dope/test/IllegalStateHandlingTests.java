@@ -1,18 +1,18 @@
-package com.dolby.dope.test;
+package com.foo.dope.test;
 
 import junit.framework.Assert;
 
 import android.util.Log;
 
-import com.dolby.infra.Player.PlayerState;
-import com.dolby.infra.Player.MediaInfo;
-import com.dolby.infra.Player.Value;
+import com.foo.infra.Player.PlayerState;
+import com.foo.infra.Player.MediaInfo;
+import com.foo.infra.Player.Value;
 
-import com.dolby.dope.test.util.CommonUtil;
-import com.dolby.dope.test.util.CommonUtil.ErrorFlag;
-import com.dolby.test.annotation.Medium;
-import com.dolby.test.annotation.Low;
-import com.dolby.test.annotation.Testlink;
+import com.foo.dope.test.util.CommonUtil;
+import com.foo.dope.test.util.CommonUtil.ErrorFlag;
+import com.foo.test.annotation.Medium;
+import com.foo.test.annotation.Low;
+import com.foo.test.annotation.Testlink;
 
 public class IllegalStateHandlingTests extends BaseTests 
 {
